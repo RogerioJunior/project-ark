@@ -4,7 +4,7 @@ import arkMarketBtn from 'assets/img/ark-market.png';
 import arkUpgradeBtn from 'assets/img/ark-upgrade.png';
 import arkCheckinBtn from 'assets/img/ark-checkin.png';
 import arkExchangeBtn from 'assets/img/ark-exchange.png';
-import arkMedalBtn from 'assets/img/ark-medal.png';
+import arkRankingBtn from 'assets/img/ark-ranking.png';
 import arkbar from 'assets/img/ark-bar.png';
 import arkicon1 from 'assets/img/ark-icon-1.png';
 import arkicon2 from 'assets/img/ark-icon-2.png';
@@ -19,9 +19,9 @@ function Navbar() {
         <header>
             <nav className="navbar navbar-expand-lg">
                 <div className="container-fluid">
-                    <Link to={`/play`}>
+                    <Link to={`/modes`}>
                         <img className="navbar-brand" src={arkPlayBtn}
-                            width="170" height="60" alt="play" />
+                            width="170" height="60" alt="modes" />
                     </Link>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarNav" aria-controls="navbarNav"
@@ -81,9 +81,9 @@ function Navbar() {
                                 </Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link" to={`/medal`}>
-                                    <img src={arkMedalBtn}
-                                        width="35" height="35" alt="medal" />
+                                <Link className="nav-link" to={`/ranking`}>
+                                    <img src={arkRankingBtn}
+                                        width="35" height="35" alt="ranking" />
                                 </Link>
                             </li>
                         </ul>

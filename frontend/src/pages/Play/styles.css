@@ -1,0 +1,8 @@
+.play {
+    background-image: url('../../assets/img/ark-play-page.png');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}

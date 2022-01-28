@@ -1,9 +1,9 @@
 import './styles.css';
 
-function Home() {
+function Hangar() {
     return (
         <>
-            <div className="home">
+            <div className="hangar">
                 <div className="container">
 
                 </div>
@@ -12,4 +12,4 @@ function Home() {
     )
 }
 
-export default Home;
+export default Hangar;

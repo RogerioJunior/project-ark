@@ -1,11 +1,15 @@
+import './styles.css';
 
 function Play() {
-
     return (
+        <>
+            <div className="play">
+                <div className="container">
 
-        <div className="btn btn-primary">aaaaa</div>
+                </div>
+            </div>
+        </>
     )
 }
 
 export default Play;
-

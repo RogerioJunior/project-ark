@@ -1,9 +1,9 @@
 import './styles.css';
 
-function Home() {
+function Market() {
     return (
         <>
-            <div className="home">
+            <div className="market">
                 <div className="container">
 
                 </div>
@@ -12,4 +12,4 @@ function Home() {
     )
 }
 
-export default Home;
+export default Market;
