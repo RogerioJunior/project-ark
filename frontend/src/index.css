@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
 
 :root {
-  --color-primary: #000;
+  --color-primary: #121212;
 }
 
 * {
@@ -11,7 +11,7 @@
 }
 
 html, body {
-    background-color: #E8E8E8;
+    background-color: #121212;
 }
 
 a, a:hover {
