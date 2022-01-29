@@ -7,7 +7,7 @@ import 'bootstrap/dist/js/bootstrap.bundle';
 import Navbar from "./components/Navbar";
 import Home from 'pages/Home';
 import Modes from 'pages/Modes';
-import Play from 'pages/Play';
+import PlayMine from 'pages/PlayMine';
 import Hangar from 'pages/Hangar';
 import Refinary from 'pages/Refinary';
 import Store from 'pages/Store';
@@ -25,7 +25,7 @@ function App() {
     <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/modes" element={<Modes />} />
-      <Route path="/play" element={<Play />} />
+      <Route path="/PlayMine" element={<PlayMine />} />
       <Route path="/hangar" element={<Hangar />} />
       <Route path="/refinary" element={<Refinary />} />
       <Route path="/store" element={<Store />} />

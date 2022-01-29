@@ -1,9 +1,9 @@
 import './styles.css';
 
-function Play() {
+function PlayMine() {
     return (
         <>
-            <div className="play">
+            <div className="playMine">
                 <div className="container">
 
                 </div>
@@ -12,4 +12,4 @@ function Play() {
     )
 }
 
-export default Play;
+export default PlayMine;
