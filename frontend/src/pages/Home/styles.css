@@ -1,8 +1,16 @@
 .home {
     background-image: url('../../assets/img/ark-home-page.png');
     background-size: cover;
-    background-position: center;
-    width: 100%;
-    height: 100vh;
-    overflow: hidden;
+    background-position: center center;
+    min-height: 100vh;
+}
+
+
+@media (max-width: 1333px) {
+
+        .home {
+            min-height: 70vh;
+        }
+
+
 }

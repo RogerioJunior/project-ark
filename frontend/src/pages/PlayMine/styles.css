@@ -1,8 +1,54 @@
 .playMine {
     background-image: url('../../assets/img/ark-play-mine-page.png');
     background-size: cover;
-    background-position: center;
-    width: 100%;
+    background-position: center center;
+    min-height: 100vh;
+}
+
+.container-play {
+    display: flex;
+    flex-direction: column;
+    background-color: #2b2b2b;
+    margin-left: 0;
+    width: 300px;
     height: 100vh;
-    overflow: hidden;
+    padding-top: 10px;
+}
+
+.border-container {
+    margin-left: 0;
+    width: 280px;
+    margin-top: 10px;
+    height: 100vh;
+    padding-top: 15px;
+    border-top: 3px solid #121212;
+    border-right: 3px solid #121212;
+}
+
+
+.content-left {
+    display: flex;
+    background-color: #545454;
+    width: 310px;
+    margin: 10px;
+    font-size: 30px;
+    height: 100px;
+    border-radius:0px 5px 5px 0px;
+    margin-bottom: 30px;
+}
+
+.ship-img {
+    background-color: #2b2b2b;
+    width: 70px;
+    height: 70px;
+    border-radius: 4px;
+    margin-left: 30px;
+    margin-top: 15px;
+}
+
+.isEmpty {
+    font-size: 30px;
+    color: #FFF;
+    margin-top: 25px;
+    margin-left: 50px;
 }
