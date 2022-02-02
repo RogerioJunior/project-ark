@@ -4,8 +4,10 @@ function Market() {
     return (
         <>
             <div className="market">
-                <div className="container">
+                <div className="container-market">
+                    <div className="border-container">
 
+                    </div>
                 </div>
             </div>
         </>
