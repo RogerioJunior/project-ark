@@ -1,8 +1,35 @@
 .exchange {
     background-image: url('../../assets/img/ark-exchange-page.png');
     background-size: cover;
-    background-position: center;
-    width: 100%;
-    height: 100vh;
-    overflow: hidden;
+    background-position: center center;
+    min-height: 100vh;
+}
+
+.container-exchange {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    align-content: center;
+}
+
+.img-fluid.top{
+    margin-top: 35vh;
+}
+
+.img-fluid {
+    margin-top: 10px;
+}
+
+
+
+
+@media (max-width: 1040px) {
+
+    .img-fluid.top{
+        margin-top: 40vh;
+    }
+    
+
 }
