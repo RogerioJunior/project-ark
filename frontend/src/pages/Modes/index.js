@@ -17,11 +17,11 @@ function Modes() {
                         </div>
                         <div className="modes-btn">
                                 <img src={arkpveplay} alt="pve" />
-                                <h2 class="grid-modes-footer">Q2</h2>
+                                <h2 className="grid-modes-footer">Q2</h2>
                         </div>
                         <div className="modes-btn">
                                 <img src={arkpvpplay} alt="pvp" />
-                                <h2 class="grid-modes-footer">Q4</h2>
+                                <h2 className="grid-modes-footer">Q4</h2>
                         </div>
                     </div>
                 </div>

@@ -4,7 +4,7 @@ function Refinary() {
     return (
         <>
             <div className="refinary">
-                <div className="container">
+                <div className="container-refinary">
 
                 </div>
             </div>

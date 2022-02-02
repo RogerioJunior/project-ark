@@ -1,3 +1,4 @@
+import ShipCard from "components/ShipCard";
 import './styles.css';
 
 function PlayMine() {
@@ -6,25 +7,7 @@ function PlayMine() {
             <div className="playMine">
                 <div className="container-play">
                     <div className="border-container">
-
-
-                        <div className="content-left">
-                            <div className="ship-img"></div>
-                            <span className="isEmpty">EMPTY</span>
-                        </div>
-                        <div className="content-left">
-                            <div className="ship-img"></div>
-                            <span className="isEmpty">EMPTY</span>
-                        </div>
-                        <div className="content-left">
-                            <div className="ship-img"></div>
-                            <span className="isEmpty">EMPTY</span>
-                        </div>
-                        <div className="content-left">
-                            <div className="ship-img"></div>
-                            <span className="isEmpty">EMPTY</span>
-                        </div>
-
+                        <ShipCard />
                     </div>
                 </div>
             </div>

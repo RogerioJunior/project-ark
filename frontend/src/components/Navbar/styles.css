@@ -38,6 +38,10 @@ h6 {
     margin-right: 5px;
 }
 
+.navbar-collapse {
+    z-index: 1;
+}
+
 
 @media (max-width: 1123px) {
 
