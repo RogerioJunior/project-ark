@@ -42,6 +42,13 @@ h6 {
     z-index: 1;
 }
 
+.navbar-text:hover {
+    color: #b80eb2;
+}
+
+.nav-icon:hover path {
+    fill: #b80eb2;
+}
 
 @media (max-width: 1123px) {
 
@@ -59,7 +66,7 @@ h6 {
     }
 
     .navbar-collapse {
-        background-color: rgba(61, 60, 60, 0.658);  
+        background-color: rgba(19, 19, 19, 0.863);  
         text-align: center;    
     }
 

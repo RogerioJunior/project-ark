@@ -1,15 +1,15 @@
-import arkPlayBtn from 'assets/img/ark-play.png';
-import arkInfoBtn from 'assets/img/ark-info.png';
-import arkMarketBtn from 'assets/img/ark-market.png';
-import arkUpgradeBtn from 'assets/img/ark-upgrade.png';
-import arkCheckinBtn from 'assets/img/ark-checkin.png';
-import arkExchangeBtn from 'assets/img/ark-exchange.png';
-import arkRankingBtn from 'assets/img/ark-ranking.png';
 import arkbar from 'assets/img/ark-bar.png';
 import arkicon1 from 'assets/img/ark-icon-1.png';
 import arkicon2 from 'assets/img/ark-icon-2.png';
 import arkicon3 from 'assets/img/ark-icon-3.png';
 import arkicon4 from 'assets/img/ark-icon-4.png';
+import { ReactComponent as ArkPlayOff } from 'assets/img/ark-play-off.svg';
+import { ReactComponent as ArkInfoOff } from 'assets/img/ark-info-off.svg';
+import { ReactComponent as ArkMarketOff } from 'assets/img/ark-market-off.svg';
+import { ReactComponent as ArkUpgradeOff } from 'assets/img/ark-upgrade-off.svg';
+import { ReactComponent as ArkCheckinOff } from 'assets/img/ark-checkin-off.svg';
+import { ReactComponent as ArkExchangeOff } from 'assets/img/ark-exchange-off.svg';
+import { ReactComponent as ArkRankingOff } from 'assets/img/ark-ranking-off.svg';
 import { Link } from "react-router-dom";
 import './styles.css';
 
@@ -20,8 +20,7 @@ function Navbar() {
             <nav className="navbar navbar-expand-lg">
                 <div className="container-fluid">
                     <Link to={`/modes`}>
-                        <img className="navbar-brand" src={arkPlayBtn}
-                            width="170" height="60" alt="modes" />
+                        <ArkPlayOff className="nav-icon" width="170" height="60"/>
                     </Link>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarNav" aria-controls="navbarNav"
@@ -32,8 +31,7 @@ function Navbar() {
 
                         <ul className="navbar-nav me-1">
                             <li className="nav-item">
-                                <img className="nav-link" src={arkInfoBtn}
-                                    width="50" height="50" alt="info" />
+                                <ArkInfoOff className="nav-icon" width="35" height="35" />
                             </li>
                         </ul>
 
@@ -58,32 +56,27 @@ function Navbar() {
                         <ul className="navbar-nav ms-auto">
                             <li className="nav-item">
                                 <Link className="nav-link" to={`/market`}>
-                                    <img src={arkMarketBtn}
-                                        width="35" height="35" alt="market" />
+                                    <ArkMarketOff className="nav-icon" width="35" height="35" />
                                 </Link>
                             </li>
                             <li className="nav-item">
                                 <Link className="nav-link" to={`/upgrade`}>
-                                    <img src={arkUpgradeBtn}
-                                        width="35" height="35" alt="upgrade" />
+                                    <ArkUpgradeOff className="nav-icon" width="35" height="35" />
                                 </Link>
                             </li>
                             <li className="nav-item">
                                 <Link className="nav-link" to={`/checkin`}>
-                                    <img src={arkCheckinBtn}
-                                        width="35" height="35" alt="checkin" />
+                                    <ArkCheckinOff className="nav-icon" width="35" height="35"/>
                                 </Link>
                             </li>
                             <li className="nav-item">
                                 <Link className="nav-link" to={`/exchange`}>
-                                    <img src={arkExchangeBtn}
-                                        width="35" height="35" alt="exchange" />
+                                    <ArkExchangeOff className="nav-icon" width="35" height="35" />
                                 </Link>
                             </li>
                             <li className="nav-item">
                                 <Link className="nav-link" to={`/ranking`}>
-                                    <img src={arkRankingBtn}
-                                        width="35" height="35" alt="ranking" />
+                                    <ArkRankingOff className="nav-icon" width="35" height="35" />
                                 </Link>
                             </li>
                         </ul>
