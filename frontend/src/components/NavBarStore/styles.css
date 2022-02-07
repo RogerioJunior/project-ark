@@ -1,4 +1,37 @@
-.titles {
+.container{
+  margin: 0;
+  padding: 0;
+  min-width: 100%;
+  background-color: rgba(247, 241, 241, 0.658);
+}
+
+.nav-bar-store a{
+  font-size: 25px;
+  color: #545454;
+}
+
+.nav-bar-store a:focus{
+  color: #540251;
+}
+
+.nav-bar-store a:hover{
+  color: #540251;
+}
+
+@media (max-width: 691px) {
+
+  .nav-bar-store a{
+    font-size: 10px;
+    padding: 0;
+  }
+
+}
+
+
+
+
+
+/*.titles {
   color: #545454;
   font-size: 27px;
   margin-left: 100px;
@@ -58,4 +91,4 @@
     margin-top: 1px;
   }
 
-}
+}*/

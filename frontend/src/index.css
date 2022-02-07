@@ -1,13 +1,27 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
 
+@font-face {
+  font-family: 'Azonix';
+  src: local('Azonix'), url(./assets/fonts/Azonix.otf) format('otf');
+}
+
+@font-face {
+  font-family: 'Mont-Extra-Light';
+  src: local('Mont-ExtraLightDEMO'), url(./assets/fonts/Mont-ExtraLightDEMO.otf) format('otf');
+}
+
+@font-face {
+  font-family: 'Mont-Heavy';
+  src: local('Mont-HeavyDEMO'), url(./assets/fonts/Mont-HeavyDEMO.otf) format('otf');
+}
 :root {
   --color-primary: #121212;
 }
 
 * {
     box-sizing: border-box;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Azonix';
 }
 
 html, body {
