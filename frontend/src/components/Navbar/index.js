@@ -15,15 +15,24 @@ import './styles.css';
 
 function Navbar() {
 
+    function hideMenu() {
+        document.getElementById("navbarNav").className =
+            document.getElementById("navbarNav").className.replace
+                (/(?:^|\s)show(?!\S)/g, '')
+        document.getElementById("menu-collapse").className += " collapsed";
+        document.getElementById('menu-collapse').setAttribute('aria-expanded', 'false');
+        
+        
+    };
+
     return (
         <header>
             <nav className="navbar navbar-expand-lg">
                 <div className="container-fluid">
-                    <Link to={`/modes`}>
-                        <ArkPlay
-                     className="nav-icon" width="170" height="60"/>
+                    <Link onClick={hideMenu} to={`/modes`}>
+                        <ArkPlay className="nav-icon" width="170" height="60" />
                     </Link>
-                    <button className="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    <button id="menu-collapse" className="navbar-toggler" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarNav" aria-controls="navbarNav"
                         aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
@@ -38,17 +47,17 @@ function Navbar() {
 
                         <ul className="navbar-nav me-auto">
                             <li className="nav-item">
-                                <Link className="nav-link" to={`/hangar`}>
+                                <Link className="nav-link" onClick={hideMenu} to={`/hangar`}>
                                     <span className="navbar-text">HANGAR</span>
                                 </Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link" to={`/refinary`}>
+                                <Link className="nav-link" onClick={hideMenu} to={`/refinary`}>
                                     <span className="navbar-text">REFINARY</span>
                                 </Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link" to={`/store`}>
+                                <Link className="nav-link" onClick={hideMenu} to={`/store`}>
                                     <span className="navbar-text">STORE</span>
                                 </Link>
                             </li>
@@ -56,27 +65,27 @@ function Navbar() {
 
                         <ul className="navbar-nav ms-auto">
                             <li className="nav-item">
-                                <Link className="nav-link" to={`/market`}>
+                                <Link className="nav-link" onClick={hideMenu} to={`/market`}>
                                     <ArkMarket className="nav-icon" width="35" height="35" />
                                 </Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link" to={`/upgrade`}>
+                                <Link className="nav-link" onClick={hideMenu} to={`/upgrade`}>
                                     <ArkUpgrade className="nav-icon" width="35" height="35" />
                                 </Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link" to={`/checkin`}>
-                                    <ArkCheckin className="nav-icon" width="35" height="35"/>
+                                <Link className="nav-link" onClick={hideMenu} to={`/checkin`}>
+                                    <ArkCheckin className="nav-icon" width="35" height="35" />
                                 </Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link" to={`/exchange`}>
+                                <Link className="nav-link" onClick={hideMenu} to={`/exchange`}>
                                     <ArkExchange className="nav-icon" width="35" height="35" />
                                 </Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link" to={`/ranking`}>
+                                <Link className="nav-link" onClick={hideMenu} to={`/ranking`}>
                                     <ArkRanking className="nav-icon" width="35" height="35" />
                                 </Link>
                             </li>
