@@ -24,42 +24,42 @@ function Market() {
                         <div className="card-nft">
                             <img src={nft01} alt="NFT" />
                             <button disable type="button">BUY</button>
-                            <p>PRICE: 4512</p>
+                            <p>PRICE: 2.700.000 SPACE</p>
                         </div>
                         <div className="card-nft">
                             <img src={nft02} alt="NFT" />
                             <button disable type="button">BUY</button>
-                            <p>PRICE: 4512</p>
-                        </div>
-                        <div className="card-nft">
-                            <img src={nft03} alt="NFT" />
-                            <button disable type="button">BUY</button>
-                            <p>PRICE: 4512</p>
-                        </div>
-                        <div className="card-nft">
-                            <img src={nft04} alt="NFT" />
-                            <button disable type="button">BUY</button>
-                            <p>PRICE: 4512</p>
-                        </div>
-                        <div className="card-nft">
-                            <img src={nft05} alt="NFT" />
-                            <button disable type="button">BUY</button>
-                            <p>PRICE: 4512</p>
+                            <p>PRICE: 4.550.000 SPACE</p>
                         </div>
                         <div className="card-nft">
                             <img src={nft06} alt="NFT" />
                             <button disable type="button">BUY</button>
-                            <p>PRICE: 4512</p>
+                            <p>PRICE: 5.000.000 SPACE</p>
+                        </div>
+                        <div className="card-nft">
+                            <img src={nft04} alt="NFT" />
+                            <button disable type="button">BUY</button>
+                            <p>PRICE: 6.750.000 SPACE</p>
+                        </div>
+                        <div className="card-nft">
+                            <img src={nft05} alt="NFT" />
+                            <button disable type="button">BUY</button>
+                            <p>PRICE: 17.450.000 SPACE</p>
                         </div>
                         <div className="card-nft">
                             <img src={nft07} alt="NFT" />
                             <button disable type="button">BUY</button>
-                            <p>PRICE: 4512</p>
+                            <p>PRICE: 18.430.000 SPACE</p>
+                        </div>
+                        <div className="card-nft">
+                            <img src={nft03} alt="NFT" />
+                            <button disable type="button">BUY</button>
+                            <p>PRICE: 25.400.000 SPACE</p>
                         </div>
                         <div className="card-nft">
                             <img src={nft08} alt="NFT" />
                             <button disable type="button">BUY</button>
-                            <p>PRICE: 4512</p>
+                            <p>PRICE: 29.999.999 SPACE</p>
                         </div>
                     </div>
                 </div>

@@ -16,7 +16,7 @@
 
 .border-container {
     margin-left: 0;
-    width: 280px;
+    width: 270px;
     margin-top: 10px;
     height: 100vh;
     padding-top: 15px;
@@ -25,7 +25,6 @@
 }
 
 .container-grid {
-    display: inline-block;
     float: right;
     margin-top: 100px;
     margin-right: 100px;
@@ -41,7 +40,7 @@
 }
 
 .card-nft {
-    background-color: rgba(187, 184, 184, 0.596);  
+    background-color: rgba(187, 184, 184, 0.726);  
     text-align: center;
 
 }
