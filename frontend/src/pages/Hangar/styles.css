@@ -1,8 +1,21 @@
 .hangar {
     background-image: url('../../assets/img/ark-hangar-page.png');
     background-size: cover;
-    background-position: center;
-    width: 100%;
-    height: 100vh;
-    overflow: hidden;
+    background-position: center center;
+    min-height: 100vh;
+}
+
+.btn {
+    display: flex;
+    justify-content: right;
+}
+
+.withdraw,
+.deposit{
+    background-color: #b80eb2;
+    border: none;
+    border-radius: 5px;
+    width: 120px;
+    cursor: pointer;
+    margin-right: 20px;
 }

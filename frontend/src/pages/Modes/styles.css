@@ -20,6 +20,20 @@
     min-height: 100vh;
 }
 
+.btn {
+    display: flex;
+    justify-content: right;
+  }
+  
+.connect {
+    background-color: #b80eb2;
+    border: none;
+    border-radius: 5px;
+    width: 165px;
+    cursor: pointer;
+    margin-right: 20px;
+  }
+
 .grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -38,6 +52,14 @@
     .grid {
         grid-template-columns: repeat(2, 1fr);
     }
+
+    .btn > button {
+        font-size: 12px;
+        border-radius: 5px;
+        padding: 3px;
+        width: 120px;
+        cursor: pointer;
+      }
 }
 
 

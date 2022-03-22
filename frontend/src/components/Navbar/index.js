@@ -65,27 +65,27 @@ function Navbar() {
 
                         <ul className="navbar-nav ms-auto">
                             <li className="nav-item">
-                                <Link className="nav-link" onClick={hideMenu} to={`/market`}>
+                                <Link className="nav-link" onClick={hideMenu} to={`/market`} title="Marketplace">
                                     <ArkMarket className="nav-icon" width="35" height="35" />
                                 </Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link" onClick={hideMenu} to={`/upgrade`}>
+                                <Link className="nav-link" onClick={hideMenu} to={`/upgrade`} title="Upgrade">
                                     <ArkUpgrade className="nav-icon" width="35" height="35" />
                                 </Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link" onClick={hideMenu} to={`/checkin`}>
+                                <Link className="nav-link" onClick={hideMenu} to={`/checkin`} title="Checkin">
                                     <ArkCheckin className="nav-icon" width="35" height="35" />
                                 </Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link" onClick={hideMenu} to={`/exchange`}>
+                                <Link className="nav-link" onClick={hideMenu} to={`/exchange`} title="Reflection">
                                     <ArkExchange className="nav-icon" width="35" height="35" />
                                 </Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link" onClick={hideMenu} to={`/ranking`}>
+                                <Link className="nav-link" onClick={hideMenu} to={`/ranking`} title="Ranking">
                                     <ArkRanking className="nav-icon" width="35" height="35" />
                                 </Link>
                             </li>
